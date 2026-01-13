@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 3000px;
+    
+}
+#first{
+    width: 200%;
+    height: 30px;
+    background-color: rebeccapurple;
+    display: flex;
+    gap: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff0000;
+    overflow-x: hidden;
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+#nav-logo img{
+    width: 100px;
+}
+#nav-links{
+    display: flex;
+    gap: 50px;
+    padding-right:30px ;
+}
+#nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+    padding: 30px;
+}
+
+#l-main{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+#l-main-img img{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 500px;
+    height: 500px;
+}
+#l-main-t{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+#r-main{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: end;
+    justify-content: end;
+    margin-top: 50vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#r-main button{
+    padding: 14px;
+    border: none;
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+#p-main h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 17vh;
+}
+#p-main h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 9vh;
+  -webkit-text-fill-color: red; 
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255); 
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff8f8;
+}
+#p2-main{
+    width: 100%;
+    height: 100%;
+}
+#p2-main-l{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p2-main-l p{
+    margin-top: 30px;
+    line-height: 2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#p2-main-l h1{
+    margin-top: 10px;
+}
+#p2-main-img{
+    width: 100%;
+    height: 35vh;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80vh;
+}
+#img{
+    width: 350px;
+    height: 350px;
+   
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#logo2 img{
+    width: 100%;
+    height: 100%;
+}
+#logo2 {
+  width: 250px;
+  height: 250px;
+}
+
+#page3{
+    width: 100%;
+    height: auto;
+    margin-top: 400px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+#slidebar{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow:visible;
+}
+#cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10vh;
+}
+#card1, #card2, #card3, #card4, #card5, #card6{
+    width: 400px;
+    margin: 1vw;
+    border: solid 6px rgb(251, 250, 250);
+    border-radius: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 2vw;
+    
+}
+#card1 img, #card2 img, #card3 img, #card4 img, #card5 img, #card6 img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+#card1 h3 , #card2 h3, #card3 h3, #card4 h3, #card5 h3, #card6 h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+}
+#card1 p, #card2 p, #card3 p, #card4 p, #card5 p, #card6 p{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+#login{
+    margin-top: 40px;
+}
+#video{
+    width: 100%;
+    padding: 4.3vw;
+    position: relative;
+}
+#circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    z-index: 9999;
+    opacity:0;
+    color: #fff8f8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:0;
+}
+#text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.b{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.w{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#img22{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 80vh;
+    z-index: 0;
+}
+#form{
+    position: relative;
+    opacity: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    padding-left: 3.8vw;
+    background: rgba(255, 255, 255, 0.247);
+    backdrop-filter: blur(15px);
+    margin-left: 35%;
+    gap: 1vw;
+    border-radius: 20px;
+    margin-top: 12vw;
+}
+#form input{
+    padding: 1vw;
+    width: 300px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 3px whitesmoke;
+    border-radius: 10px;
+}
+#form ::placeholder{
+    color:black
+}
+#form button{
+    width: 300px;
+    margin-top: 15px;
+    border: solid 2px rgb(255, 250, 250);
+    padding: 0.8vw;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
